@@ -22,9 +22,9 @@ Unfortunately no, not because I'm alregic to Apple. I don't have a Mac.
 
 # How can I try this?
 
-## ~~Installing~~
+## Installing
 
-Unfortunately, This project hasn't been compiled (nor I set the Key), so you need to use the second option.
+Go to releases and Install!
 
 ## Run with Node.js
 
