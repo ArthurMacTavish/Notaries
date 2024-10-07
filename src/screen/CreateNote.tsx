@@ -86,7 +86,9 @@ const CreateNote = (props: {navigation: any}) => {
       Alert.alert('No Note?', 'Please add note. Everything else is optional.');
     } else {
       const lastID =
-        CurrentData.length === 0 ? -1 : CurrentData[CurrentData.length - 1].id;
+        CurrentData.length === 0
+          ? -1
+          : (CurrentData[CurrentData.length - 1].id as number);
       database.write(() => {
         database.create('db', {
           id: lastID + 1,

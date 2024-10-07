@@ -41,4 +41,4 @@ This project uses React Native 0.75.2.
 2. Connect your Android Device to ADB or Launch your Emulator
 3. Open this project with your favourite Code Editor/IDE
 4. Use the terminal to run `npm install`
-5. To run the project, do `npm run android && npm run start`
+5. To run the project, do `npm run android`
